@@ -1,45 +1,62 @@
-baseURL: 'https://gryoussef.github.io/'
-languageCode: en-us
-title: DevOps Bro
+baseURL: 'https://gokarna-hugo.netlify.app'
+title: Youssef EL JIRARI
 theme: gokarna
-menu:
+languageCode: en
+defaultContentLanguage: en
+enableEmoji: true
+enableRobotsTXT: true
+pygmentsStyle: monokai
 params:
   footer: Youssef EL JIRARI
-  description: 'Sky above, sand below and peace within'
+  description: Youssef EL JIRARI's DevOps Ramblings - DevOpsBro.tech
   avatarURL: /images/avatar.jpg
   AvatarAltText: avatar
-  avatarSize: size-xl
+  avatarSize: size-l
 
+      
   socialIcons:
-  - name: twitter
-    url: 'https://example.com'
-  - name: linkedin
-    url: 'https://example.com'
-  - name: stackoverflow
-    url: 'https://example.com'
-  - name: email
-    url: 'mailto:example@example.com'
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/gryoussef/'
+    - name: email
+      url: 'mailto:youssef.jirari@gmail.com'
+    - name: github
+      url: 'https://github.com/gryoussef'
   metaKeywords:
-    - blog
-    - gokarna
-    - hugo
-
+    - gryoussef
+    - devops
+    - youssef el jirari
+menu:
   main:
-    - identifier: Home
+    - name: Home
       pre: <span data-feather='home'></span>
       url: /
       weight: 1
-    - identifier: posts
+    - name: Posts
+      pre: <span data-feather='book'></span>
       url: /posts/
-      pre: ''
-      post: ''
-      name: Posts
       weight: 2
-    - identifier: tags
-      name: Tags
-      url: /tags/
+    - name: Projects
+      pre: <span data-feather='code'></span>
+      url: /projects/
       weight: 3
-    - identifier: github
-      url: 'https://github.com'
+    - name: Tags
+      pre: <span data-feather='tag'></span>
+      url: /tags/
       weight: 4
+    - identifier: github
       pre: <span data-feather='github'></span>
+      url: 'https://github.com/526avijitgupta/gokarna'
+      weight: 5
+    - identifier: buymeacoffee
+      pre: <span data-feather='coffee'></span>
+      url: 'https://www.buymeacoffee.com/avijitgupta'
+      weight: 6
+    - identifier: rss
+      pre: <span data-feather='rss'></span>
+      url: /index.xml
+      weight: 7
+markup:
+  tableOfContents:
+    startLevel: 1
+    endLevel: 4
+    ordered: false
