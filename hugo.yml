@@ -29,7 +29,7 @@ menu:
   main:
     - name: Home
       pre: <span data-feather='home'></span>
-      url: /
+      url: https://devopsbro.tech/
       weight: 1
     - name: Posts
       pre: <span data-feather='book'></span>
