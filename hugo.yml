@@ -29,23 +29,23 @@ menu:
   main:
     - name: Home
       pre: <span data-feather='home'></span>
-      url: /
+      url: https://devopsbro.tech/
       weight: 1
     - name: Posts
       pre: <span data-feather='book'></span>
-      url: /posts/
+      url: https://devopsbro.tech/posts/
       weight: 2
     - name: Projects
       pre: <span data-feather='code'></span>
-      url: /projects/
+      url: https://devopsbro.tech/projects/
       weight: 3
     - name: Tags
       pre: <span data-feather='tag'></span>
-      url: /tags/
+      url: https://devopsbro.tech/tags/
       weight: 4
     - identifier: github
       pre: <span data-feather='github'></span>
-      url: 'https://github.com/526avijitgupta/gokarna'
+      url: 'https://github.com/gryoussef'
       weight: 5
 markup:
   tableOfContents:
