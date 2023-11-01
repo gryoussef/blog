@@ -47,14 +47,6 @@ menu:
       pre: <span data-feather='github'></span>
       url: 'https://github.com/526avijitgupta/gokarna'
       weight: 5
-    - identifier: buymeacoffee
-      pre: <span data-feather='coffee'></span>
-      url: 'https://www.buymeacoffee.com/avijitgupta'
-      weight: 6
-    - identifier: rss
-      pre: <span data-feather='rss'></span>
-      url: /index.xml
-      weight: 7
 markup:
   tableOfContents:
     startLevel: 1
