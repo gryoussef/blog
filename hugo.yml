@@ -13,7 +13,7 @@ params:
   avatarURL: /images/avatar.jpg
   AvatarAltText: avatar
   avatarSize: size-l
-  accentColor: "#39FF14"
+  accentColor: "#FF4400"
 
       
   socialIcons:
