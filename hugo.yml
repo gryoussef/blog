@@ -8,12 +8,13 @@ enableRobotsTXT: true
 pygmentsStyle: monokai
 params:
   footer: DevOps Bro
-  name: Hi 👋, Youssef EL JIRARI is here! 
-  description: 🚀 Embark on my tech odyssey as a lifelong learner. 🌌 Sharing authentic insights and personal tales about DevOps, cloud, and software engineering. 💻
+  name: Holà 👋, Youssef is here! 
+  description: Come along on my tech journey as a lifelong learner! 🌌 I'll be sharing real stories and insights about DevOps, cloud, and software engineering. 💻 Let's explore and learn together!
   avatarURL: /images/avatar.jpg
   AvatarAltText: avatar
   avatarSize: size-l
   accentColor: "#FF4400"
+  showPostsOnHomePage: popular
 
       
   socialIcons:
